@@ -14,6 +14,8 @@
 		7B249D2920922778007EFDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B249D2720922778007EFDEC /* LaunchScreen.storyboard */; };
 		7B249D3420922778007EFDEC /* RSSParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B249D3320922778007EFDEC /* RSSParserTests.swift */; };
 		7B249D3F20922778007EFDEC /* RSSParserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B249D3E20922778007EFDEC /* RSSParserUITests.swift */; };
+		7B249D4D20922849007EFDEC /* RSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B249D4C20922849007EFDEC /* RSSParser.swift */; };
+		7BB99E172094E98F000D5981 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB99E162094E98F000D5981 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7B249D3A20922778007EFDEC /* RSSParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B249D3E20922778007EFDEC /* RSSParserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSParserUITests.swift; sourceTree = "<group>"; };
 		7B249D4020922778007EFDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B249D4C20922849007EFDEC /* RSSParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSParser.swift; sourceTree = "<group>"; };
+		7BB99E162094E98F000D5981 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				7B249D1E20922776007EFDEC /* AppDelegate.swift */,
+				7B249D4C20922849007EFDEC /* RSSParser.swift */,
 				7B249D2020922776007EFDEC /* ViewController.swift */,
+				7BB99E162094E98F000D5981 /* Article.swift */,
 				7B249D2220922776007EFDEC /* Main.storyboard */,
 				7B249D2520922778007EFDEC /* Assets.xcassets */,
 				7B249D2720922778007EFDEC /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB99E172094E98F000D5981 /* Article.swift in Sources */,
 				7B249D2120922776007EFDEC /* ViewController.swift in Sources */,
+				7B249D4D20922849007EFDEC /* RSSParser.swift in Sources */,
 				7B249D1F20922776007EFDEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
